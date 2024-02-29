@@ -1,0 +1,6 @@
+devel_space: /home/ella/Documents/GitHub/FS_Car/devel
+install: false
+install_space: /home/ella/Documents/GitHub/FS_Car/install
+profile: default
+source_space: /home/ella/Documents/GitHub/FS_Car/src
+workspace: /home/ella/Documents/GitHub/FS_Car
