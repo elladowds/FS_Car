@@ -16,6 +16,10 @@
         <color rgba="1 1 1 1"/>
     </material>
 
+    <material name="silver">
+        <color rgba="0.430 0.417 0.417 1"/>
+    </material>
+
     <!-- Base link is centre of the 2 drive wheels -->
     <link name="base_link">
     
@@ -25,25 +29,25 @@
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
-        <origin xyz="-0.1 0 0"/>
+        <origin xyz="-0.4765 0 0"/>
     </joint>
 
     <link name="chassis">
         <visual>
-            <origin xyz="0.15 0 0.075"/>
+            <origin xyz="0.4765 0 0"/>
             <geometry>
-                <box size="0.4 0.4 0.15"/>
+                <box size="0.953 0.22 0.2"/>
             </geometry>
-            <material name="blue"/>
+            <material name="silver"/>
         </visual>
         <collision>
-            <origin xyz="0.15 0 0.075"/>
+            <origin xyz="0.4765 0 0"/>
             <geometry>
-                <box size="0.4 0.4 0.15"/>
+                <box size="0.953 0.22 0.2"/>
             </geometry>
         </collision>
         <xacro:inertial_box mass="0.5" x="0.3" y="0.3" z="0.15">
-            <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
+            <origin xyz="0.4765 0 0" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
 
