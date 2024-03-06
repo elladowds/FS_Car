@@ -1,4 +1,4 @@
-prefix=/home/ella/Documents/GitHub/FS_Car/install
+prefix=/home/ella/Documents/GitHub/fs_car/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

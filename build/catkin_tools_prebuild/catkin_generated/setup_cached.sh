@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ella/Documents/GitHub/FS_Car/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/ella/Documents/GitHub/FS_Car/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ella/Documents/GitHub/FS_Car/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ella/Documents/GitHub/FS_Car/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ella/Documents/GitHub/fs_car/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD='/home/ella/Documents/GitHub/fs_car/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ella/Documents/GitHub/fs_car/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ella/Documents/GitHub/fs_car/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

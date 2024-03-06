@@ -1,1 +1,1 @@
-/home/ella/Documents/GitHub/FS_Car/devel/.private/catkin_tools_prebuild/local_setup.sh
+/home/ella/Documents/GitHub/fs_car/devel/.private/catkin_tools_prebuild/local_setup.sh

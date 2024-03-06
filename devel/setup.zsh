@@ -1,1 +1,1 @@
-/home/ella/Documents/GitHub/FS_Car/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/ella/Documents/GitHub/fs_car/devel/.private/catkin_tools_prebuild/setup.zsh

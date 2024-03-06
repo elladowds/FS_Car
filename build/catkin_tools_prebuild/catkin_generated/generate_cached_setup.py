@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/ella/Documents/GitHub/FS_Car/devel/.private/catkin_tools_prebuild/env.sh')
+code = generate_environment_script('/home/ella/Documents/GitHub/fs_car/devel/.private/catkin_tools_prebuild/env.sh')
 
-output_filename = '/home/ella/Documents/GitHub/FS_Car/build/catkin_tools_prebuild/catkin_generated/setup_cached.sh'
+output_filename = '/home/ella/Documents/GitHub/fs_car/build/catkin_tools_prebuild/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

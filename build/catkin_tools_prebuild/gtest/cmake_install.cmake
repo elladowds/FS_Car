@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ella/Documents/GitHub/FS_Car/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ella/Documents/GitHub/fs_car/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ella/Documents/GitHub/FS_Car/build/catkin_tools_prebuild/gtest/googlemock/cmake_install.cmake")
+  include("/home/ella/Documents/GitHub/fs_car/build/catkin_tools_prebuild/gtest/googlemock/cmake_install.cmake")
 
 endif()
 
