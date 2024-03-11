@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<launch>
+
+<!-- Simulation time -->
+<param name="/use_sim_time" value="true"/>
+
+<param name="robot_description" command="$(find xacro)/xacro --inorder $(find fs_car)/urdf/robot.urdf.xacro"/>
+
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
+    <param name="publish_frequency" value="30.0"/>
+</node>
+
+<node name="spawn_car" pkg="gazebo_ros" type="spawn_model"
+      args="-urdf -param robot_description -model fs_car
+            -gazebo_namespace /gazebo
+            -x 0.0 -y 0.0 -z 0.0
+            -R 0.0 -P 0.0 -Y 0.0"/>
+
+<node name="controller_spawner" pkg="controller_manager" type="spawner"
+      />
