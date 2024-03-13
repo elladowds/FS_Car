@@ -1,0 +1,8 @@
+prefix=/home/ella/Documents/GitHub/fs_car/devel/.private/car_sim
+
+Name: car_sim
+Description: Description of car_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
