@@ -26,7 +26,7 @@
     
     </link>
 
-    <!-- Chassis link - box shape with origin just behind the wheels (l/w/h 964.3/231.23/200)
+    <!-- Chassis link - box shape with origin just behind the wheels (l/w/h 964.3/231.23/200)>
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
@@ -52,6 +52,7 @@
         </xacro:inertial_box>
     </link>
     -->
+    
     <!-- Left front wheel link -->
 
     <joint name="left_front_wheel_joint" type="continuous">
