@@ -185,7 +185,7 @@
 
     <!-- Left front suspension -->
 
-    <joint name="left_front_suspension_joint" type="continuous">
+    <joint name="left_front_suspension_joint" type="fixed">
         <parent link="base_link"/>
         <child link="left_front_suspension"/>
         <origin xyz="-0.34264 -0.183735 0.12725" rpy="${pi/2} 0 0"/>
@@ -217,7 +217,7 @@
 
     <!-- Left back suspension -->
 
-    <joint name="left_back_suspension_joint" type="continuous">
+    <joint name="left_back_suspension_joint" type="fixed">
         <parent link="base_link"/>
         <child link="left_back_suspension"/>
         <origin xyz="0.34264 -0.183735 0.12725" rpy="${pi/2} 0 0"/>
@@ -249,7 +249,7 @@
 
     <!-- Right front suspension -->
 
-    <joint name="right_front_suspension_joint" type="continuous">
+    <joint name="right_front_suspension_joint" type="fixed">
         <parent link="base_link"/>
         <child link="right_front_suspension"/>
         <origin xyz="-0.34264 0.183735 0.12725" rpy="${pi/2} 0 0"/>
@@ -281,7 +281,7 @@
 
     <!-- Right back suspension -->
 
-    <joint name="right_back_suspension_joint" type="continuous">
+    <joint name="right_back_suspension_joint" type="fixed">
         <parent link="base_link"/>
         <child link="right_back_suspension"/>
         <origin xyz="0.34264 0.183735 0.12725" rpy="${pi/2} 0 0"/>

@@ -3,10 +3,4 @@
 
     <xacro:include filename="test.xacro" />
 
-    <!-- Information for Gazebo controls -->
-    <xacro:include filename="gazebo_control.xacro"/>
-
-    <!-- Information for Lidar -->
-    <xacro:include filename="lidar.xacro"/>
-
 </robot>

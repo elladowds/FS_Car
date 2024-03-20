@@ -143,6 +143,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/car_sim" TYPE FILE FILES "/home/ella/Documents/GitHub/fs_car/src/car_sim/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/car_sim" TYPE PROGRAM FILES "/home/ella/Documents/GitHub/fs_car/build/car_sim/catkin_generated/installspace/ackermann_controller.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ella/Documents/GitHub/fs_car/build/car_sim/gtest/cmake_install.cmake")

@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/ella/Documents/GitHub/fs_car/devel/.private/car_sim:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ella/Documents/GitHub/fs_car/devel/.private/car_sim/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ella/Documents/GitHub/fs_car/devel/.private/car_sim/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/ella/Documents/GitHub/fs_car/build/car_sim'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/ella/Documents/GitHub/fs_car/devel/.private/car_sim/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/ella/Documents/GitHub/fs_car/src/car_sim:$ROS_PACKAGE_PATH"
