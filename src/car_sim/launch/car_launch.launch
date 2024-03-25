@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 
-
 <launch>
 
       <!-- Simulation time -->
@@ -12,10 +11,10 @@
             <param name="publish_frequency" value="30.0"/>
       </node>
 
-      <!-- Dont need if got controller >
+      <!-- Dont need if got controller -->
       <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
             <param name="publish_frequency" value="30.0"/>
-      </node-->
+      </node>
 
       <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
 
